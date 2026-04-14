@@ -3,7 +3,7 @@ variable "bucket_name" {
 }
 
 variable "tags" {
-  description = "Tags for S3 bucket"
+  description = "Tags for S3"
   type        = map(string)
   default     = {}
 }
